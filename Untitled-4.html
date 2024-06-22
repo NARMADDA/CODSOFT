@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Item</title>
+    <link rel="stylesheet" href="Untitled-4.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="Untitled-3.html"><svg class="back-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+            <path d="M19 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H19v-2z"/>
+        </svg></a>
+    </nav> 
+    <div class="container">
+        <h1>Sell Your Item</h1>
+        <div class="breadcrumb">
+            <span>Cars / Cars</span> <a href="Untitled-3.html">Change</a>
+        </div>
+        <form action="Untitled-4.html">
+            <section class="details-section">
+                <h2>Include Some Details</h2>
+                <div class="form-group">
+                    <label for="brand">Brand *</label>
+                    <select id="state" name="state" required>
+                        <option></option>
+                    <optgroup label="Popular Brand">
+                        <option>Maruti Suzuki</option>
+                        <option>Hyundai</option>
+                        <option>Tata</option>
+                        <option>Mahindra</option>
+                        <option>Toyota</option>
+                        <option>Honda</option>
+                    </optgroup>
+                    <optgroup label="All Brand">
+                        <option>BYD</option>
+                        <option>Audi</option>
+                        <option>Ambassador</option>
+                        <option>Ashok</option>
+                        <option>Ashok Leyland</option>
+                        <option>Aston</option>
+                        <option>Aston Martin</option>
+                        <option>Bajaj</option>
+                        <option>Bentley</option>
+                        <option>Citroen</option>
+                        <option>McLaren</option>
+                        <option>Fisker</option>
+                        <option>Tesla</option>
+                        <option>BMW</option>
+                        <option>Bugatti</option>
+                        <option>Cadillac</option>
+                        <option>Caterham</option>
+                        <option>Chevrolet</option>
+                        <option>Chrysler</option>
+                        <option>Daewoo</option>
+                        <option>Datsun</option>
+                        <option>Dc</option>
+                        <option>Dodge</option>
+                        <option>Eicher Polaris</option>
+                        <option>Ferrari</option>
+                        <option>Fiat</option>
+                        <option>Force Motors</option>
+                        <option>Ford</option>
+                        <option>Honda</option>
+                        <option>Hummer</option>
+                        <option>Hyundai</option>
+                        <option>ICML</option>
+                        <option>Infiniti</option>
+                        <option>Isuzu</option>
+                        <option>Jaguar</option>
+                        <option>Jeep</option>
+                        <option>Kia</option>
+                        <option>Lamborghini</option>
+                        <option>Land Rover</option>
+                        <option>Lexus</option>
+                        <option>Mahindra</option>
+                        <option>Mahindra Renault</option>
+                        <option>Maruti Suzuki</option>
+                        <option>Maserati</option>
+                        <option>Maybach</option>
+                        <option>Mazda</option>
+                        <option>Mercedes-Benz</option>
+                        <option>MG</option>
+                        <option>Mini</option>
+                        <option>Mitsubishi</option>
+                        <option>Nissan</option>
+                        <option>Opel</option>
+                        <option>Peugeot</option>
+                        <option>Porsche</option>
+                        <option>Premier</option>
+                        <option>Renault</option>
+                        <option>Rolls-Royce</option>
+                        <option>San</option>
+                        <option>Sipani</option>
+                        <option>Skoda</option>
+                        <option>Smart</option>
+                        <option>Ssangyong</option>
+                        <option>Subaru</option>
+                        <option>Tata</option>
+                        <option>Toyota</option>
+                        <option>Volkswagen</option>
+                        <option>Volvo</option>
+                    </optgroup>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Year *</label>
+                    <input type="number" name="year" required>
+                    <span class="error">Year is mandatory. Please complete the required field.</span>
+                </div>
+                <div class="form-group">
+                    <label>Fuel *</label>
+                    <select required>
+                        <option></option>
+                        <option>CNG & Hybrids</option>
+                        <option>Diesel</option>
+                        <option>Electric</option>
+                        <option>LPG</option>
+                        <option>Petrol</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Transmission *</label>
+                    <select required>
+                        <option></option>
+                        <option>Automatic</option>
+                        <option>Manual</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="km-driven">KM driven *</label>
+                    <input type="text" id="km-driven" name="km-driven" maxlength="6" required>
+                </div>
+                <div class="form-group">
+                    <label>No. of Owners *</label>
+                    <select required>
+                        <option></option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <option>3rd</option>
+                        <option>4th</option>
+                        <option>4+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ad-title">Ad title *</label>
+                    <input type="text" id="ad-title" name="ad-title" maxlength="70" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description *</label>
+                    <textarea id="description" name="description" maxlength="4096" required></textarea>
+                </div>
+            </section>
+            <section class="price-section">
+                <h2>Set a Price</h2>
+                <div class="form-group">
+                    <label for="price">Price *</label>
+                    <input type="text" id="price" name="price" required>
+                </div>
+            </section>
+            <h2>Upload up to 20 Photos</h2>
+            <div class="photo-grid">
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <div class="photo-slot">
+                    <i class="material-icons">add_a_photo</i><br>
+                    <label for="photo1" class="photo-label">
+                        <input type="file" id="photo1" class="photo-input">
+                    </label>
+                </div>
+                <span class="error">This field is mandatory</span>
+            </div>
+            <section class="location-section">
+                <h2>Confirm Your Location</h2>
+                <div class="form-group">
+                    <label for="state">State *</label>
+                    <select id="state" name="state" required>
+                        <option></option>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                    </select>
+                </div>
+                <span class="error">This field is mandatory</span>
+            </section>
+            <div class="form-group">
+                <label>City *</label>
+                <input type="text" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

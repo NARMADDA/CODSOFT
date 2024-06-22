@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.back-arrow{
+    width:50px;
+    height:50px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+.breadcrumb {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.breadcrumb span {
+    color: #666;
+}
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-slot {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+input[type="file"] {
+    display: none;
+}
+.photo-slot input[type="file"] {
+    display: block;
+}
+button[type="submit"] {
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
